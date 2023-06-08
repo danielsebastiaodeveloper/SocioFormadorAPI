@@ -1,0 +1,11 @@
+# Docker login
+docker login
+
+# Build Image
+docker build -t mxdevelopers/socioformadorapidemo:0.3 .
+
+# Push Image to Hub
+docker push mxdevelopers/socioformadorapidemo:0.3
+
+# Run Image docker command
+docker run -d -p 8081:80 -e ASPNETCORE_URLS=http://+:80  mxdevelopers/socioformadorapidemo:0.3

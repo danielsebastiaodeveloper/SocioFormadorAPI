@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{8E4E2E62-E2FE-4C5A-BC97-826B9E7F9603}"
+	ProjectSection(SolutionItems) = preProject
+		Infra\docker-compose.yaml = Infra\docker-compose.yaml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{55FA61F2-5540-46D0-8BFA-460BEB890DD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9C6B78DC-1819-4D5B-90ED-CE41D8DDACEC}"
+	ProjectSection(SolutionItems) = preProject
+		docs\commands.txt = docs\commands.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EC5485A3-2E87-4A1D-9177-B0D1BA5E61BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{968F2CF3-6778-4AEE-BCC3-30A91F7BCBF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocioFormadorAPI", "src\Presentation\SocioFormadorAPI\SocioFormadorAPI.csproj", "{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2CE91855-EE6B-4E96-8310-9FE66D454F3D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{8245F9DE-F475-4D72-B92F-AF20E95367B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocioFormador.Application", "src\Core\Application\SocioFormador.Application\SocioFormador.Application.csproj", "{3764ACEA-0C8F-4E2F-AF28-54104699AFE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocioFormador.Domain", "src\Core\Domain\SocioFormador.Domain\SocioFormador.Domain.csproj", "{656046FB-5951-4892-943C-04E8AB966805}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocioFormador.Persistence", "src\Infrastructure\Persistence\SocioFormador.Persistence\SocioFormador.Persistence.csproj", "{B4AEE073-2407-48A3-A2BE-AE1569818419}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocioFormador.Shared", "src\Infrastructure\Shared\SocioFormador.Shared\SocioFormador.Shared.csproj", "{058CD161-9658-41C0-B447-A2B2ECC5C04E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{BB38805F-4EA8-4AA2-834E-78FE3D7428B8}"
+	ProjectSection(SolutionItems) = preProject
+		ScriptsDataBase\Clientes CRUD.sql = ScriptsDataBase\Clientes CRUD.sql
+		ScriptsDataBase\Create DataBase and Tables.sql = ScriptsDataBase\Create DataBase and Tables.sql
+		ScriptsDataBase\Productos CRUD.sql = ScriptsDataBase\Productos CRUD.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4885F2EC-F2CF-42EB-9116-59F7AF726433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3764ACEA-0C8F-4E2F-AF28-54104699AFE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3764ACEA-0C8F-4E2F-AF28-54104699AFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3764ACEA-0C8F-4E2F-AF28-54104699AFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3764ACEA-0C8F-4E2F-AF28-54104699AFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656046FB-5951-4892-943C-04E8AB966805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656046FB-5951-4892-943C-04E8AB966805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656046FB-5951-4892-943C-04E8AB966805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656046FB-5951-4892-943C-04E8AB966805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4AEE073-2407-48A3-A2BE-AE1569818419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4AEE073-2407-48A3-A2BE-AE1569818419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4AEE073-2407-48A3-A2BE-AE1569818419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4AEE073-2407-48A3-A2BE-AE1569818419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{058CD161-9658-41C0-B447-A2B2ECC5C04E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{058CD161-9658-41C0-B447-A2B2ECC5C04E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{058CD161-9658-41C0-B447-A2B2ECC5C04E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{058CD161-9658-41C0-B447-A2B2ECC5C04E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{968F2CF3-6778-4AEE-BCC3-30A91F7BCBF0} = {EC5485A3-2E87-4A1D-9177-B0D1BA5E61BD}
+		{6EE77BA7-F1B2-42E4-BAE1-ADA89936955E} = {968F2CF3-6778-4AEE-BCC3-30A91F7BCBF0}
+		{2CE91855-EE6B-4E96-8310-9FE66D454F3D} = {EC5485A3-2E87-4A1D-9177-B0D1BA5E61BD}
+		{8245F9DE-F475-4D72-B92F-AF20E95367B1} = {EC5485A3-2E87-4A1D-9177-B0D1BA5E61BD}
+		{3764ACEA-0C8F-4E2F-AF28-54104699AFE8} = {2CE91855-EE6B-4E96-8310-9FE66D454F3D}
+		{656046FB-5951-4892-943C-04E8AB966805} = {2CE91855-EE6B-4E96-8310-9FE66D454F3D}
+		{B4AEE073-2407-48A3-A2BE-AE1569818419} = {8245F9DE-F475-4D72-B92F-AF20E95367B1}
+		{058CD161-9658-41C0-B447-A2B2ECC5C04E} = {8245F9DE-F475-4D72-B92F-AF20E95367B1}
+		{BB38805F-4EA8-4AA2-834E-78FE3D7428B8} = {55FA61F2-5540-46D0-8BFA-460BEB890DD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C3EDFB1-7323-486C-915E-474BB0AF038D}
+	EndGlobalSection
+EndGlobal
