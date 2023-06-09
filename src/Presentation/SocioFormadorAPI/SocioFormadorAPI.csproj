@@ -23,4 +23,8 @@
     <ProjectReference Include="..\..\Infrastructure\Shared\SocioFormador.Shared\SocioFormador.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 </Project>

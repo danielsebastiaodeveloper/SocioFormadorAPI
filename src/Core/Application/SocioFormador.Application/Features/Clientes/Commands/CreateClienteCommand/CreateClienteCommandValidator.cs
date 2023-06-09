@@ -1,6 +1,4 @@
-﻿
-
-using FluentValidation;
+﻿using FluentValidation;
 
 namespace SocioFormador.Application.Features.Clientes.Commands.CreateClienteCommand;
 

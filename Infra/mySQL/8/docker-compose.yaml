@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+
+  mysql:
+    image: mysql:8.0.33
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql8-data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: UPgrade2023**
+      MYSQL_DATABASE: SocioFormadorDB

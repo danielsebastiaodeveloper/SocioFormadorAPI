@@ -346,4 +346,5 @@ healthchecksdb
 coverage.opencover.xml
 /.vscode
 /doc/sample/api/1. Overview.md
-/Infra/todo-mysql-data
+/Infra/mySQL/5/mysql5-data
+/Infra/mySQL/8/mysql8-data

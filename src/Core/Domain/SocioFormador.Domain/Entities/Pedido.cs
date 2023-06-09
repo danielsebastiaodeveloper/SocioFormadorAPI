@@ -5,7 +5,7 @@ namespace SocioFormador.Domain.Entities
     public class Pedido: AuditableEntityBase<long, long>
     {
         public long ClienteId { get; set; }
-        public required string Producto { get; set; }
+        public decimal Total { get; set; }
         public int Cantidad { get; set; }
     }
 }
