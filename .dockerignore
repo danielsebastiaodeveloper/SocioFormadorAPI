@@ -13,6 +13,7 @@
 **/*.jfm
 **/azds.yaml
 **/bin
+**/todo-mysql-data
 **/charts
 **/docker-compose*
 **/Dockerfile*

@@ -1,7 +1,5 @@
 -- Creación de la base de datos
-CREATE DATABASE SocioFormadorDB;
-USE SocioFormadorDB;
-
+CREATE DATABASE IF NOT EXISTS SocioFormadorDB;
 USE SocioFormadorDB;
 
 CREATE TABLE Ciudades (

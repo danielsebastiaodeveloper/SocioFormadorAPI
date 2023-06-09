@@ -15,7 +15,13 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5262",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DBHOST": "127.0.0.1",
+        "DBPORT": "3306",
+        "DBNAME": "SocioFormadorDB",
+        "DBUSER": "root",
+        "DBPASSWORD": "secret"
+        
       }
     }
   },
