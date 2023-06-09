@@ -30,6 +30,7 @@ services:
       - 3306
     volumes:
       - ./mysql5-data:/var/lib/mysql
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       - MYSQL_ROOT_PASSWORD=secret
       - MYSQL_DATABASE=SocioFormadorDB
