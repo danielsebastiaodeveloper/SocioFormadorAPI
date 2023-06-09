@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   socioformadorapi:
-    image: mxdevelopers/socioformadorapi:0.4
+    image: mxdevelopers/socioformadorapi:0.5
     ports:
       - "8081:80"
     expose:
