@@ -2,13 +2,13 @@ Select *
 from Pedidos;
 
 INSERT INTO Pedidos (ClienteId, Total, Cantidad)
-VALUES (1, 'Producto A', 5);
+VALUES (1, 1000, 5);
 INSERT INTO Pedidos (ClienteId, Total, Cantidad)
-VALUES (1, 'Producto B', 10);
+VALUES (1, 15300.5, 10);
 INSERT INTO Pedidos (ClienteId, Total, Cantidad)
-VALUES (1, 'Producto C', 3);
+VALUES (1, 299.99, 3);
 INSERT INTO Pedidos (ClienteId, Total, Cantidad)
-VALUES (2, 'Producto D', 0);
+VALUES (2, 0, 0);
 
 SELECT *
 FROM Pedidos;
